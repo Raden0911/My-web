@@ -100,8 +100,8 @@ body{
         top: 100%;
         right: -100%;
         background-color: white;
-        width: 30rem;
-        height: 50vh;
+        width: 15rem;
+        height: 35vh;
         border-radius: 10px;
         transition: 1s;
     }
@@ -116,15 +116,16 @@ body{
         margin: 1.5rem;
         padding: 0.5rem;
         font-size: 2rem;
+        text-align: center;
         
     }
 
     .navbar .navbar-nav a::after {
-        transform-origin: 0 0;
+        transform-origin: 0 1;
     }
 
     .navbar .navbar-nav a:hover::after {
-        transform-origin: 0 0;
+        transform-origin: 0 1;
         transform: scaleX(0.2);
     }
 }

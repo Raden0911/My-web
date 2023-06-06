@@ -246,7 +246,8 @@ body{
 }
 
 .hero .content{
-    padding: 1.4rem 28%;
+    padding: 1.4rem 25%; 
+    /* margin-left: 25rem; */
     color: white;
 }
 

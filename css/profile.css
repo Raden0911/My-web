@@ -17,6 +17,7 @@ body{
     font-family: 'Poppins',sans-serif;
     background-color: var(--bg);
     color: white;
+    min-height: 2000px;
 }
 
 /* Navbar */
@@ -180,6 +181,8 @@ body{
         transform-origin: 0 1;
         transform: scaleX(0.2);
     }
+
+
 }
 
 /* Tablet end */
@@ -237,23 +240,32 @@ body{
 
 
 /* Hero section */
-.hero{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image: url('DI ISI IMG COK');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 .hero .content{
-    padding: 1.4rem 28%;
-    color: white;
+    padding: 10rem 7% 1.4rem;
+     color: white;
+ }
+ 
+ .hero .content h2{
+     justify-content: center;
+     font-size: 2.6rem;
+     margin-bottom: 0.5rem;
+     text-align: center;
+ }
+
+.hero .foto :nth-child(1){
+    margin-left: 10rem;
 }
 
-.hero .content h1{
-    font-size: 4em;
-    justify-content: center;
+.hero .foto :nth-child(2) {
+    margin-left: 10rem;
 }
 
+.hero .foto :nth-child(3) {
+    margin-left: 10rem;
+}
+
+.hero .caption {
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}

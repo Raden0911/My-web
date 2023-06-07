@@ -1,6 +1,6 @@
 :root{
     --primary: #b6895b;
-    --bg: #010101;
+    --bg: #000000;
 }
 
 *{
@@ -17,7 +17,15 @@ body{
     font-family: 'Poppins',sans-serif;
     background-color: var(--bg);
     color: white;
-    min-height: 2000px;
+    .hero {
+         min-height: 900px;
+    }
+    .Collage {
+        min-height: 900px;
+    }
+    .Contact {
+        min-height: 900px;
+    }
 }
 
 /* Navbar */
@@ -274,3 +282,49 @@ body{
     margin-right: 4rem;
     margin-left: 4rem;
 }
+/* Hero section end */
+
+/* Collage */
+
+.Collage {
+    padding: 8rem 7% ;
+    background-color: rgb(60, 60, 60);
+}
+
+.Collage h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.Collage h2 span{
+    color: var(--primary);
+}
+
+/* Collage end */
+
+/* contact */
+
+.Contact {
+    padding: 8rem 7% ;
+    background-color: rgb(110, 110, 110);
+}
+
+.Contact h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.Contact h2 span{
+    color: var(--primary);
+}
+
+.Contact form {
+    text-align: center;    
+}
+
+
+/* contact end */

@@ -246,12 +246,13 @@ body{
 }
 
 .hero .content{
-    padding: 1.4rem 25%; 
-    /* margin-left: 25rem; */
+    display: flex;
+    padding: 1.4rem 35%;
     color: white;
 }
 
 .hero .content h1{
     font-size: 4em;
-    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
